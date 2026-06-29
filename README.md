@@ -93,29 +93,8 @@ rfm.columns = ['Recency', 'Frequency', 'Monetary']
 
 ## Dataset
 
-This project uses the **Online Retail Dataset** from the UCI Machine Learning Repository.
-
-- Download it here: [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
-- Save as `Online_Retail.csv` in the project root before running
-
----
-
-## How to Run
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/rfm-segmentation.git
-cd rfm-segmentation
-
-# 2. Install dependencies
-pip install pandas numpy matplotlib seaborn
-
-# 3. Add the dataset
-# Place Online_Retail.csv in the project root
-
-# 4. Run the analysis
-python RFM_Analysis.py
-```
+A retail transactions dataset (`Online_Retail.csv`) containing 800,000+ records.
+The dataset is not included in this repository.
 
 ---
 
@@ -123,8 +102,6 @@ python RFM_Analysis.py
 
 ```
 ├── RFM_Analysis.py                    # Main analysis script
-├── Online_Retail.csv                  # Dataset (not included)
-├── rfm_analysis_results.csv          # Full RFM scores per customer
 ├── RFM Analysis Visuals (Page 1).png # Overview dashboard
 ├── RFM Analysis Visuals (Page 2).png # Distribution dashboard
 └── README.md                         # Project documentation
