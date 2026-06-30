@@ -8,11 +8,11 @@ A Python-based customer segmentation project using RFM (Recency, Frequency, Mone
 
 RFM analysis is a proven marketing technique that scores customers based on three dimensions:
 
-- **Recency** — How recently they made a purchase
-- **Frequency** — How often they buy
-- **Monetary** — How much they spend in total
+- **Recency** : How recently they made a purchase
+- **Frequency** : How often they buy
+- **Monetary** : How much they spend in total
 
-By combining these scores, customers are grouped into meaningful segments — each with a tailored retention or growth strategy.
+By combining these scores, customers are grouped into meaningful segments , each with a tailored retention or growth strategy.
 
 ---
 
@@ -44,13 +44,13 @@ By combining these scores, customers are grouped into meaningful segments — ea
 
 ## Visualizations
 
-**Page 1 — Customer Overview**
+**Page 1 : Customer Overview**
 - Customer segment distribution (horizontal bar chart)
 - Average RFM scores across all customers
 - Key metrics summary
 - Top 5 customers by total revenue
 
-**Page 2 — RFM Deep Dive**
+**Page 2 : RFM Deep Dive**
 - RFM heatmap: average spending by Recency × Frequency score
 - Recency distribution histogram
 - Frequency distribution histogram
