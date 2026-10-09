@@ -312,6 +312,7 @@ fig2, axes = plt.subplots(2, 2, figsize=(14, 10))
 # 1. Heatmap of Recency vs Frequency with Average Spending
 ax1 = axes[0, 0]
 heatmap_data = rfm.groupby(['R_Score_Num', 'F_Score_Num'])['Monetary'].mean().unstack().fillna(0)
+heatmap_data = heatmap_data.sort_index(ascending=False)  
 im = ax1.imshow(heatmap_data, cmap='YlOrRd', aspect='auto')
 ax1.set_title('RFM HEATMAP: AVERAGE SPENDING', fontweight='bold', pad=10)
 ax1.set_xlabel('Frequency Score', fontsize=10)
